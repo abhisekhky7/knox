@@ -8,6 +8,7 @@ const handleClick=()=>{
   handleAddWidget({name,text,cat});
   setName('')
   setText('')
+  setShow(false)
 }
   return (
     <div className='h-svh w-2/4 border-2 border-black z-10 absolute right-0 top-0 bg-slate-200'>
