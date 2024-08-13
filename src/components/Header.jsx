@@ -28,7 +28,7 @@ export default function Header({onSearch}) {
           Add Category</span>
         </div>
       {show && (
-        <AddCategory setShow={setShow}/>
+        <AddCategory setShow={setShow} />
       )}
     </div>
   )
